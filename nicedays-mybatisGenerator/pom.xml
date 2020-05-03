@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nicedays</artifactId>
+        <groupId>com.mujio.nicedays</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nicedays-mybatisGenerator</artifactId>
+    <groupId>com.mujio.nicedays</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>nicedays-mybatisGenerator</name>
+    <description>nicedays-mybatisGenerator 自动生成工具</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.mujio.nicedays</groupId>
+            <artifactId>nicedays-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
