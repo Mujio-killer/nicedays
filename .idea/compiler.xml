@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nicedays-mybatisGenerator" />
+        <module name="nicedays-security" />
+        <module name="nicedays-portal" />
+        <module name="nicedays-common" />
+        <module name="nicedays-demo" />
+        <module name="nicedays-admin" />
+        <module name="nicedays-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nicedays" target="1.8" />
+      <module name="nicedays-admin" target="1.8" />
+      <module name="nicedays-common" target="1.8" />
+      <module name="nicedays-demo" target="1.8" />
+      <module name="nicedays-mybatisGenerator" target="1.8" />
+      <module name="nicedays-portal" target="1.8" />
+      <module name="nicedays-search" target="1.8" />
+      <module name="nicedays-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nicedays-admin" options="-parameters" />
+      <module name="nicedays-common" options="-parameters" />
+      <module name="nicedays-demo" options="-parameters" />
+      <module name="nicedays-mybatisGenerator" options="-parameters" />
+      <module name="nicedays-portal" options="-parameters" />
+      <module name="nicedays-search" options="-parameters" />
+      <module name="nicedays-security" options="-parameters" />
+    </option>
+  </component>
+</project>

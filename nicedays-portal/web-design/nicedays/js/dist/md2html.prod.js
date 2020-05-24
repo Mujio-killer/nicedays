@@ -1,0 +1,1 @@
+"use strict";$("#mysql").click(function(){$.ajax({type:"get",async:!1,url:"http://127.0.0.1:5501/article-html/mysql.html",data:{type:1},timeout:1e3,success:function(t){$("#mainContent").html(t)},error:function(){}})});
