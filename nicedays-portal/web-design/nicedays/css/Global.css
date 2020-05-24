@@ -1,0 +1,18 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  outline: none;
+  /* login 和sign */
+  font:17px arial,"幼体";
+  /* taobao */
+ 
+  columns: #3c3c3c;
+  box-sizing: border-box;
+}
+
+/* 超链接取消下划线 */
+a{
+  text-decoration: none;
+}

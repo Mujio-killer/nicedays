@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nicedays.iml" filepath="$PROJECT_DIR$/nicedays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-admin/nicedays-admin.iml" filepath="$PROJECT_DIR$/nicedays-admin/nicedays-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-common/nicedays-common.iml" filepath="$PROJECT_DIR$/nicedays-common/nicedays-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-demo/nicedays-demo.iml" filepath="$PROJECT_DIR$/nicedays-demo/nicedays-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-mybatisGenerator/nicedays-mybatisGenerator.iml" filepath="$PROJECT_DIR$/nicedays-mybatisGenerator/nicedays-mybatisGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-portal/nicedays-portal.iml" filepath="$PROJECT_DIR$/nicedays-portal/nicedays-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-search/nicedays-search.iml" filepath="$PROJECT_DIR$/nicedays-search/nicedays-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedays-security/nicedays-security.iml" filepath="$PROJECT_DIR$/nicedays-security/nicedays-security.iml" />
+    </modules>
+  </component>
+</project>

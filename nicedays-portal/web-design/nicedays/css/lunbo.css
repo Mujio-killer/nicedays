@@ -1,0 +1,85 @@
+/*轮播图css*/
+body{
+margin: 0;
+padding: 0;
+text-align: none;
+background-color: #34495e;
+
+
+}
+
+
+/*设置显示图片的大小，溢出隐藏*/
+.slidershow{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+/*居中*/
+.middle{
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);/*实现块元素百分比下居中*/
+}
+/*导航 设置绝对位置，弹性布局，按钮位置*/
+.navigation{
+position: absolute;
+bottom: 20px; /*底部距离*/
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+}
+/*设置按钮属性*/
+.bar{
+width: 70px;
+height: 20px;
+border: 2px solid #FFF8DC;
+margin: 15px;
+cursor: pointer;
+transition: 0.4s;
+}
+.bar:hover{
+background-color: #FFF8DC;
+}
+/*隐藏了按钮*/
+
+input[name="r"]{
+position: absolute;
+visibility: hidden;
+
+}
+
+.slides{
+width: 500%;
+height: 100%;
+display: flex;
+}
+
+.slide{
+width: 20%;
+transition: 1.5s;/*delay(延迟)*/
+
+}
+
+.slide img{
+width: 100%;
+height: 100%;
+}
+
+/*绑定按钮*/
+#r1:checked~ .s1{
+margin-left: 0;
+}
+#r2:checked~ .s1{
+margin-left: -20%;
+}
+#r3:checked~.s1{
+margin-left: -40%;
+}
+#r4:checked~.s1{
+    margin-left: -60%;
+}
+#r5:checked~.s1{
+    margin-left: -80%;
+}
